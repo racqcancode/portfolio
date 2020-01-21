@@ -1306,9 +1306,9 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), url("images/bg.jpg");
-		background-repeat: repeat, no-repeat;
-		background-size: auto, 100% 100%;
+		background-image: url("images/background01.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
 		background-attachment: fixed;
 		overflow-y: scroll;
 	}
@@ -2139,6 +2139,67 @@ input, select, textarea {
 						}
 
 				}
+/* Custom code within Main */
+.back-navigation {
+	text-align: left;
+	font-size: 0.5em;
+}
+
+.project-wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.project-wrapper h2 {
+	text-align: center;
+}
+
+.project-description {
+	width: 85%;
+	margin: 1.0em auto;
+	font-size: 0.75em;
+	line-height: 1.5em;
+}
+
+.project-description p {
+	margin-bottom: 2.0em;
+}
+
+.project-links {
+	width: 65%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.project-live {
+	margin-right: 2em;
+}
+
+.team-members {
+	width: 70%;
+	margin: 0 auto;
+}	
+
+.team-members h5 {
+	text-align: center;
+}
+
+.team-list {	
+	display: inline-block;
+}
+
+.team-left {
+	float: left;
+}
+
+.team-right {
+	float: right:
+}
+
+.member {
+	text-align: center;
+}
+/* End of Custom code within Main */
 
 /* Footer */
 
