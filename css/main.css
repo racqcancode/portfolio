@@ -1384,6 +1384,11 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
+	h6 {
+		font-size: 1em;
+		letter-spacing: -0.015em;
+	}
+
 	@media screen and (max-width: 736px) {
 
 		h1 {
@@ -1397,6 +1402,7 @@ input, select, textarea {
 		h3, h4, h5, h6 {
 			font-size: 1em;
 		}
+
 
 	}
 
@@ -2143,6 +2149,7 @@ input, select, textarea {
 .back-navigation {
 	text-align: left;
 	font-size: 0.5em;
+	margin-left: 1em;
 }
 
 .project-wrapper {
@@ -2152,6 +2159,12 @@ input, select, textarea {
 
 .project-wrapper h2 {
 	text-align: center;
+}
+
+.screenshot {
+	border: 10px solid black;
+	display: block;
+	margin: 1em auto;
 }
 
 .project-description {
@@ -2166,39 +2179,54 @@ input, select, textarea {
 }
 
 .project-links {
-	width: 65%;
-	margin: 0 auto;
-	display: flex;
+	width: 70%;
+	margin: 1em auto;
+	text-align: center;
 }
 
 .project-live {
-	margin-right: 2em;
+	float: left;
+	display: inline-block;
 }
+
+.project-prototype {
+	float: right;
+	display: inline-block;
+}
+
+.category-image {
+	display: block;
+	margin: 0.5em auto;
+}
+
+.project-links:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 
 .team-members {
 	width: 70%;
 	margin: 0 auto;
+	text-align: center;
 }	
 
-.team-members h5 {
-	text-align: center;
-}
-
 .team-list {	
-	display: inline-block;
+	width: 90%;
+	margin: 0.5em auto;
+	text-align: center;
 }
 
 .team-left {
 	float: left;
+	display: inline-block;
 }
 
 .team-right {
-	float: right:
+	float: right;
+	display: inline-block;
 }
 
-.member {
-	text-align: center;
-}
 /* End of Custom code within Main */
 
 /* Footer */
