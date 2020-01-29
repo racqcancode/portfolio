@@ -1306,8 +1306,8 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/background01.jpg");
-		background-repeat: no-repeat;
+		background-image: url("images/marble.png");
+		background-repeat: repeat;
 		background-size: 100%;
 		background-attachment: fixed;
 		overflow-y: scroll;
@@ -1784,7 +1784,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #ffffff;
+			color: #333333;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
@@ -2146,6 +2146,7 @@ input, select, textarea {
 
 				}
 /* Custom code within Main */
+
 .back-navigation {
 	text-align: left;
 	font-size: 0.5em;
@@ -2159,12 +2160,13 @@ input, select, textarea {
 
 .project-wrapper h2 {
 	text-align: center;
+	margin: 1em;
 }
 
 .screenshot {
 	border: 10px solid black;
 	display: block;
-	margin: 1em auto;
+	margin: 2em auto;
 }
 
 .project-description {
@@ -2239,7 +2241,7 @@ input, select, textarea {
 	}
 
 		#footer a {
-			color: #ddd;
+			color: #333333;
 			color: rgba(255, 255, 255, 0.65);
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
