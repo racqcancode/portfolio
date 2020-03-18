@@ -1306,7 +1306,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/marble.png");
+		background-image: url("images/leaf.jpg");
 		background-repeat: repeat;
 		background-size: 100%;
 		background-attachment: fixed;
@@ -1784,7 +1784,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #333333;
+			color: #aaa;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
